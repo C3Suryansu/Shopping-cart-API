@@ -3,6 +3,11 @@ A simple shopping cart API using Python and MongoDB
 The API can add a product, show all products, delete a product and update a product details.
 It was tesed using Postman.
 
+## Libraries required:
+- flask (use pip install flask)
+- flask_pymongo (use pip install flask_pymongo)
+
+
 # To test the API:
 - Download Postman from https://www.postman.com/downloads/
 Run the src.py python script and note the local host URL on which it gets hosted. We will refer it as URL here (usually it is http://127.0.0.1:5000/)
@@ -23,9 +28,13 @@ Now, for testing the various CRUD operations.
 - All the products will be displayed in JSON format.
 
 ### For deleting a product
-- Select the url as URL:/delete/<product name> 
+- Select the url as URL:/delete/<product_name> 
 - E.g.: URL:/delete/Carrot
 - Select DELETE from the dropdown button and click on Send
 - On successful deletion, "Product deleted successfully" will be displayed
   
-
+### For updating details of a product 
+- Note the id of the product you want to update.
+- Select the url as URL:/update/<id>
+- Select method as PUT and then, click on Body and select JSON, and fill the details of the product in JSON format.
+- On successful updation, "Product updated succesfully" will be displayed.
