@@ -1,7 +1,7 @@
 # Shopping-cart-API
-A simple shopping cart API using Python and MongoDB
+A simple shopping cart API using Python and MongoDB.
 The API can add a product, show all products, delete a product and update a product details.
-It was tesed using Postman.
+It was tested using Postman.
 
 ## Libraries required:
 - flask (use pip install flask)
