@@ -22,6 +22,11 @@ Now, for testing the various CRUD operations.
 - Click on Send button.
 - On successful addition, "Product added succesfully" will be printed.
 
+### For viewing details of a particular product
+- Follow the same procedure for adding, with the url as URL:/product/<product_name>
+- Select GET from the dropdown button and click on Send button.
+- The product details will be displayed in JSON format.
+
 ### For viewing all products
 - Follow the same procedure for adding, with the url as URL:/products
 - Select GET from the dropdown button and click on Send button.
